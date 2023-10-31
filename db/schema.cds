@@ -13,6 +13,7 @@ using
     managed,
     temporal
 }
+
 from '@sap/cds/common';
 
 entity Risks : managed
