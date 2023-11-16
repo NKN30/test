@@ -5,6 +5,7 @@ using { RiskManagement as my } from '../db/schema';
 @path : '/service/RiskManagement'
 service RiskManagementService
 {
+    
     annotate Mitigations with @restrict :
     [
         { grant : [ 'READ' ], to : [ 'RiskViewer' ] },
